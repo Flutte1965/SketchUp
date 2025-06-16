@@ -1,6 +1,6 @@
-# onborading_screen
+# SKETCHUP 
 
-Our Final year project
+SketchUp is a Flutter-based mobile app that uses Augmented Reality (AR) to help users design their rooms by placing virtual furniture. Users can capture real furniture images, remove backgrounds, and drag & drop PNGs into their room layout. The app offers a user-friendly interface, Firebase login, and the ability to save and preview custom room designs.
 
 ## Getting Started
 
