@@ -1,0 +1,100 @@
+name: onborading_screen
+description: "A new Flutter project."
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6  # Provides iOS-styled icons for Flutter apps, used for styling in Cupertino-based widgets.
+
+  firebase_core: ^3.6.0  # Required for initializing Firebase in your Flutter project to use Firebase services.
+
+  image_picker: ^1.1.2  # Allows picking images and videos from the device's gallery or camera.
+
+  firebase_storage: ^12.3.3  # Enables uploading and downloading files to/from Firebase Cloud Storage.
+
+  cloud_firestore: ^5.4.4  # A NoSQL database for storing and syncing data with Firebase in real-time.
+
+  arcore_flutter_plugin: ^0.2.0-alpha  # A plugin for integrating ARCore (Augmented Reality) features into your app.
+
+  path_provider: ^2.1.5  # Helps to get the correct file path for storing files on the device (e.g., app documents or temporary files).
+
+  screenshot: ^3.0.0  # Allows taking screenshots of the current screen of the app.
+
+  camera: ^0.10.5+5  # Provides access to the device’s camera for taking pictures or recording videos.
+
+  http: ^1.1.0  # Allows making HTTP requests to APIs for fetching data or interacting with web services.
+
+  fluttertoast: ^8.2.2  # Used to display short, customizable toast messages in the app.
+
+  transparent_image: ^2.0.1  # A widget that displays a transparent image, commonly used for placeholder images.
+
+  easy_splash_screen: ^1.0.4  # Creates an easy splash screen with customizable animations and images at app startup.
+
+  flutter_cache_manager: ^3.4.1  # Manages and caches files locally, useful for offline use and fast loading.
+
+  permission_handler: ^11.3.1  # Provides a way to request and check permissions for accessing device features (camera, storage, etc.).
+
+  image_gallery_saver: ^2.0.3  # Allows saving images or media files to the gallery or other image folders on the device.
+
+  mailer: ^6.2.0  # A library for sending emails from the Flutter app, supporting features like attachments and HTML content.
+
+  flutter_rating_bar: ^4.0.1  # A rating bar widget to collect user feedback in the form of stars or custom icons.
+
+  flutter_animated_icons: ^1.0.1  # A collection of animated icons for enhancing UI interactions in the app.
+
+  flutter_animate: ^4.5.2  # Helps create animated widgets and transitions for enhancing UI experience.
+
+  flutter_hooks: ^0.20.5  # A Flutter package that simplifies managing state and side effects in functional-style widgets.
+
+  shared_preferences: ^2.3.3  # Provides a persistent key-value store for storing simple app settings or small amounts of data.
+  firebase_auth: ^5.3.3
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Mulish
+      fonts:
+        - asset: assets/fonts/Mulish-Light.ttf
+        - asset: assets/fonts/Mulish-SemiBold.ttf
+
+    - family: Noto
+      fonts:
+        - asset: assets/fonts/Noto.ttf
+       # - asset: assets/fonts/Muli.ttf
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+    - family: Kalam
+      fonts:
+        - asset: assets/fonts/Kalam.ttf
+        #- asset: assets/fonts/Poppins-SemiBold.ttf
+
+    - family: Merienda
+      fonts:
+        - asset: assets/fonts/Merienda.ttf
+
+

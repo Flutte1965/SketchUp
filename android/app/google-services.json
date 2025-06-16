@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "472262509899",
+    "project_id": "ar-db78c",
+    "storage_bucket": "ar-db78c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472262509899:android:52713945b728decf19d4ce",
+        "android_client_info": {
+          "package_name": "com.example.onboradingscreen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLGglKHt-ljfh1lNGt2nHZYqHzLrI1LtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

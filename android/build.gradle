@@ -1,0 +1,111 @@
+//allprojects {
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//
+//    // Add a resolution strategy to force specific dependency versions
+//    configurations.all {
+//        resolutionStrategy {
+//            // Force a single version of filament-android to avoid duplicate classes
+//            force 'com.google.android.filament:filament-android:1.21.1'
+//        }
+//    }
+//}
+//
+//rootProject.buildDir = "../build"
+//
+//subprojects {
+//    project.buildDir = "${rootProject.buildDir}/${project.name}"
+//}
+//
+//subprojects {
+//    project.evaluationDependsOn(":app")
+//}
+//
+//tasks.register("clean", Delete) {
+//    delete rootProject.buildDir
+//}
+
+
+
+
+//allprojects {
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
+//
+//rootProject.buildDir = "../build"
+//subprojects {
+//    project.buildDir = "${rootProject.buildDir}/${project.name}"
+//}
+//subprojects {
+//    project.evaluationDependsOn(":app")
+//}
+//
+//tasks.register("clean", Delete) {
+//    delete rootProject.buildDir
+//}
+
+//implementation("com.google.ar.sceneform:filament-android:1.21.1") {
+//    exclude group: "com.google.android.filament", module: "filament-android"
+//}
+
+
+//buildscript {
+//    ext.kotlin_version = '1.5.21' // Ensure the Kotlin version is consistent
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//    dependencies {
+//        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" // Kotlin Gradle plugin
+//        classpath 'com.android.tools.build:gradle:7.3.1' // Android Gradle build tools
+//        classpath 'com.google.gms:google-services:4.4.2' // Google services for Firebase
+//        // Other classpath dependencies that are usually used in Flutter projects
+//        classpath 'com.google.firebase:firebase-crashlytics-gradle:3.0.2' // Firebase Crashlytics
+//        classpath 'com.google.firebase:perf-plugin:1.4.2' // Firebase Performance Monitoring
+//    }
+//}
+//
+//allprojects {
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
+//
+//rootProject.buildDir = "../build"
+//subprojects {
+//    project.buildDir = "${rootProject.buildDir}/${project.name}"
+//}
+//subprojects {
+//    project.evaluationDependsOn(":app")
+//}
+//
+//tasks.register("clean", Delete) {
+//    delete rootProject.buildDir
+//}
+
+
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
